@@ -98,16 +98,16 @@ function buildCharts(sample) {
       type:'bar',
       orientation: 'h'
       
+
     }
       
     ];
     // Create the layout for the bar chart. 
-    var barLayout = {      
+    var barLayout = {width: 375, height: 370, margin: { t: 95, b: 85},       
     title: "Top 10 Bacterial Species",
     xaxis: {title: "Sample Values"},
     yaxis: {title: "ID's"}
    
-      
     };
 
     // Use Plotly to plot the data with the layout. 
